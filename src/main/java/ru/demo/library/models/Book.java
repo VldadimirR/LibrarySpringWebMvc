@@ -4,6 +4,11 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+/**
+ * Это простой класс POJO, представляющий книгу.
+ * Он имеет 4 поля: идентификатор, имя, автор и год. Конструктор принимает имя, автора и год
+ * и инициализирует соответствующее поле.
+ */
 public class Book {
 
     private int id;

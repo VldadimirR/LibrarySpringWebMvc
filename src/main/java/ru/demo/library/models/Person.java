@@ -4,6 +4,11 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
+/**
+ * Этот класс представляет информацию о человеке, включая его уникальный идентификатор,
+ * полное имя, возраст и другие данные. Конструктор класса принимает полное имя и возраст,
+ * инициализирует соответствующие поля и устанавливает пустой идентификатор
+ */
 
 public class Person {
     private int id;
