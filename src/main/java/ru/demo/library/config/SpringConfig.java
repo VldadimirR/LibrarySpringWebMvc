@@ -27,7 +27,7 @@ import java.util.Objects;
 @Configuration
 @ComponentScan("ru.demo.library")
 @EnableWebMvc
-@PropertySource("classpath:database.properties")
+@PropertySource("classpath:database2.properties")
 public class SpringConfig implements WebMvcConfigurer {
 
     // это контейнер, который управляет жизненным циклом объектов в приложении
